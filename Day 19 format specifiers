@@ -1,0 +1,30 @@
+number_1=344566.645647
+number_2=-6865657633.4256
+
+print(f"The number is :{number_1:20}")
+print(f"The number is :{number_2:20}")
+print(f"The number is :{number_1:,}")
+print(f"The number is :{number_2:,}")
+print(f"The number is :{number_1:+}")
+print(f"The number is :{number_2:+}")
+print(f"The number is :{number_1: }")
+print(f"The number is :{number_2: }")
+print(f"The number is :{number_1:<}")
+print(f"The number is :{number_2:<}")
+print(f"The number is :{number_1:>}")
+print(f"The number is :{number_2:>}")
+print(f"The number is :{number_1:^}")
+print(f"The number is :{number_2:^}")
+print(f"The number is :{number_1:.2f}")
+print(f"The number is :{number_2:.2f}")
+print(f"The number is :{number_1:+,.3f}")
+print(f"The number is :{number_2:+,.3f}")
+
+
+
+
+
+
+
+
+

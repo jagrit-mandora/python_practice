@@ -1,0 +1,50 @@
+# In this we will learn and practice while loops
+
+1.
+
+#number=int(input("Enter a age between 18 to 25 to qualify for these benefits: "))
+
+# while number < 18 or number > 25:
+#     print("You are not qualified for these benefits.")
+#     number=int(input("Enter a age between 18 to 25 to qualify for these benefits: "))
+
+# print(f"Congratulations Your age is {number} and you qualify for these benifits.")
+
+#2.
+
+# password=input("Enter the password to access the message: ")
+
+# while not password=="its_wonder":
+#     print("incorect password") 
+#     password=input("Enter the password to access the message: ")
+
+
+# print("Go to experiment x")
+
+#3.
+
+# date_of_submission=(input("enter the day of submission(monday/tuesday) or q to quit: "))
+
+# while date_of_submission== "monday" or "sunday":
+#     print (f"You can procede as your day of submission is : {date_of_submission}")
+#     if date_of_submission=="q":
+#         break
+#     date_of_submission=int(input("enter the day of submission(monday/tuesday) or q to quit"))
+
+# print("you are not alligiable")
+
+# IT TURNS OUT I AM USING WRONG APPROCH HERE AND NEED TO IMPROVE.
+
+while True:
+    day_of_submission=input("Enter the day form was submitted (MONDAY or SUNDAY) or q to quit: ")
+
+    if day_of_submission=="monday" or day_of_submission=="sunday":
+        print("You are elligible.")
+        break
+    elif day_of_submission=="q":
+        print("QUITING...")
+        break
+    else:
+        print("ok")
+        
+

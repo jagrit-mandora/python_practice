@@ -1,0 +1,29 @@
+#indexing of strings
+#variable[start:end:step]
+# the start of index start inclusive, end is the end and is exclusive, step is how many to skip
+
+number="1234-5678-9009-8765"
+
+#print(number[0:6])
+#print(number[5:])
+#print(number[2:10])
+#print(number[-1])
+#print(number[::3])
+
+# Make a program to get the last 4 digits of a credit number.\
+
+#credit_number=input("please enter your credit card number")
+
+#four_digit=(credit_number[-4:])
+
+#four_digit=(credit_number[-4:])
+
+#four_digit=(number[-4:])
+
+#print(f"XXXX-XXXX-XXXX-{four_digit}")
+
+# To reverse a string (string_name[::-1])
+
+reverse_string=number[::-1]
+
+print(f"{reverse_string}")
