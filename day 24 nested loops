@@ -1,0 +1,29 @@
+# Nested loop : these are a loop inside a loop
+#        outer loop:
+#              inner loop:
+# in this way we can do a many more things.
+
+# for i in range (0,10):
+#     print(i, end="")
+
+# for x in range (3):
+#     for i in range (0,10):
+#         print(i, end="")
+#     print("#")
+
+# Print a box.
+# length=int(input("Enter the side of box in symbols: "))
+# symbol=input("Enter the symbol: ")
+# for x in range (int(length/2)):
+#     for i in range (length):
+#         print(symbol, end="")
+#     print()
+
+# Print a box improved.
+length=int(input("Enter the length of the box : "))
+width=int(input("Enter the width of the box : "))
+symbol=input("Enter the symbol: ")
+for i in range(length):
+    for x in range(width):
+        print(symbol, end="")
+    print()

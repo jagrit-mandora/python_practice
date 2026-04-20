@@ -1,0 +1,22 @@
+#collections in python are single varible used to store many variables.
+# There are list , tuple ,set ,etc.
+
+#list:
+
+cars = ["maruti","honda","toyota","suzuki"]
+
+#print(cars)
+
+# cars[2]="tata"
+
+# for car in cars :
+#     print(car)
+
+# print(cars[3])
+
+# print(len(cars))
+
+# print(dir(cars))
+
+# print(help(cars))
+
