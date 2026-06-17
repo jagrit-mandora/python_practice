@@ -6,7 +6,7 @@ carsset = {"maruti","honda","toyota","suzuki","honda"}
 
 #print(dir(carsset))
 
-print(help(carsset))
+#print(help(carsset))
 
 #carsset.add("tata")
 

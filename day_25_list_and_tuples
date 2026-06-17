@@ -3,10 +3,6 @@
 
 # list[] : ordered and changable. duplicates allowed
 
-# set{} : unordered and immutable. but add/ remove allowed. no duplicates are allowed.
-
-# tuples() : ordered and unchangable . duplicates allowed and 
-
 cars = ["maruti","honda","toyota","suzuki","honda"]
 
 #print(cars)
@@ -41,8 +37,9 @@ cars = ["maruti","honda","toyota","suzuki","honda"]
 
 #print(cars.count("honda"))
 
-cars.clear()
-
-for car in cars :
-     print(car)
+#for car in cars :
+#    print(car)
     
+
+
+

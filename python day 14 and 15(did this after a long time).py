@@ -15,10 +15,6 @@ print(h)
 '''
 
 #now we are studying about if conditions 
-#i was out in camp for ncc army attachment camp after coming home i had to handel many things 
-# at ones and it overwemlmed me a so i slipped a bit but this splipping is also a part of my
-# growth i think i am going to pick up speed soon . and am seem to be returning on track 
-# slowly.
 
 a=float(input("enter your weight in kg : "))
 b=float(input("enter your height in meters : "))
